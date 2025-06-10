@@ -2,8 +2,8 @@ import SearchSection from "./component/SearchSection";
 
 export default function App() {
 
-  const handleOnSearchChange = (city)=>{
-    console.log("User searched for:", city)
+  const handleOnSearchChange = (searchData)=>{
+    console.log(searchData)
   }
 
   return (
