@@ -16,6 +16,7 @@ export default {
           midnight: "#4C1D95", // Rich dark purple
           lilac: "#C4B5FD", // Soft lilac
           orchid: "#D8B4FE", // Light orchid
+          bgBlack: "#333",
         },
       },
     },

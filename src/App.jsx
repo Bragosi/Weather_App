@@ -1,3 +1,4 @@
+import CurrentWeatherSection from "./component/CurrentWeatherSection";
 import SearchSection from "./component/SearchSection";
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
   return (
     <div >
       <SearchSection onSearchChange={handleOnSearchChange}/>
+      <CurrentWeatherSection/>
     </div>
   )
 }
