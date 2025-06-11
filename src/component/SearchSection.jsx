@@ -38,7 +38,7 @@ const SearchSection = ({ onSearchChange }) => {
   return (
     <section className="flex flex-row w-full justify-center items-center gap-3 pt-4">
       <div>
-        <img src={logo} alt="logo" width={70} height={30} />
+        <img src={logo} alt="logo" width={50} height={30} />
       </div>
       <div className="w-4/5 flex flex-row gap-4">
         <AsyncPaginate
@@ -58,7 +58,7 @@ const SearchSection = ({ onSearchChange }) => {
               boxShadow: state.isFocused
                 ? "0 0 0 3px rgba(59, 130, 246, 0.3)"
                 : "0 2px 4px rgba(0,0,0,0.1)",
-              padding: "0.5rem",
+              padding: "2px",
               backgroundColor: "#ffffff",
               transition: "all 0.2s ease",
             }),
