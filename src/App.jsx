@@ -2,6 +2,7 @@ import { useState } from "react";
 import CurrentWeatherSection from "./component/CurrentWeatherSection";
 import SearchSection from "./component/SearchSection";
 import { WeatherApiUrl, weatherApiKey } from "./constants/API";
+import ForecastSection from "./component/ForecastSection";
 
 export default function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
@@ -34,6 +35,7 @@ export default function App() {
     <div>
       <SearchSection onSearchChange={handleOnSearchChange} />
       {currentWeather && <CurrentWeatherSection data={currentWeather} />}
+     {forecast && <ForecastSection data={forecast}/>}
     </div>
   );
 }
