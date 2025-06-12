@@ -23,7 +23,7 @@ const ForecastSection = ({ data }) => {
   };
 
   return (
-    <section className="w-full bg-white mt-10">
+    <section className="w-full bg-white mt-10 pb-4">
       <div className="lg:w-1/2 relative mr-auto ml-auto">
         <label className="text-[23px] font-bold text-purple-midnight ml-2">
           Daily Forecast
@@ -60,7 +60,7 @@ const ForecastSection = ({ data }) => {
                 </div>
               </div>
               {expandedIndex === i && (
-                <div className="p-5 bg-purple-orchid w-[450px] flex flex-col relative mr-auto ml-auto">
+                <div className="p-5 bg-purple-orchid w-[450px] flex flex-col relative rounded-md mt-2  mr-auto ml-auto">
                   <div className="relative flex w-full items-center justify-between border-b border-yellow-500">
                     <label className="label">Pressure</label>
                     <label>{item.main.pressure} hPa</label>
