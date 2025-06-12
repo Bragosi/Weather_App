@@ -14,7 +14,7 @@ export default function App() {
       `${WeatherApiUrl}/weather?lat=${lat}&lon=${lon}&appid=${weatherApiKey}&units=metric`
     );
     const forecastFetch = fetch(
-      `${WeatherApiUrl}/forecast?lat=${lat}&lon=${lon}&appid=${weatherApiKey}&units=metirc`
+      `${WeatherApiUrl}/forecast?lat=${lat}&lon=${lon}&appid=${weatherApiKey}&units=metric`
     );
 
     Promise.all([currentWeatherFetch, forecastFetch])
