@@ -4,7 +4,11 @@ import { AsyncPaginate } from "react-select-async-paginate";
 import { GeoApiOptions, GeoUrl } from "../constants/API";
 
 const SearchSection = ({ onSearchChange }) => {
-  const [searchValue, setSearchValue] = useState(null);
+  const [searchValue, setSearchValue] = useState({
+ 
+    value: "51.50785, -0.1251",
+    label: "Akure, NG",
+  });
 
   const loadOptions = async (inputValue) => {
     // If nothing is typed, return an empty list

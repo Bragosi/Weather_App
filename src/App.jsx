@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import CurrentWeatherSection from "./component/CurrentWeatherSection";
 import SearchSection from "./component/SearchSection";
 import { WeatherApiUrl, weatherApiKey } from "./constants/API";
@@ -7,6 +7,11 @@ import ForecastSection from "./component/ForecastSection";
 export default function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
   const [forecast, setForecast] = useState(null);
+
+  const defaultCity ={
+    value: "51.50785 -0.1251",
+    label: "Akure, NG",
+  }
 
   const handleOnSearchChange = (searchData) => {
     const [lat, lon] = searchData.value.split(" ");
@@ -30,6 +35,12 @@ export default function App() {
   };
   console.log(currentWeather);
   console.log(forecast);
+
+  useEffect(() => {
+    if (!currentWeather) {
+      handleOnSearchChange(defaultCity);
+    }
+  }, []);
 
   return (
     <div>
