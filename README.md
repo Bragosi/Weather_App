@@ -33,14 +33,14 @@ OpenWeatherMap API: Provides current weather and forecast data.
 ----
 
 
-##Screenshots
+## Screenshots
 
 ![Screenshot_14-6-2025_15712_localhost](https://github.com/user-attachments/assets/48c286f0-855a-41ff-832c-1ddd8bea7f65)
 
 
 ----
 
-##Live Demo
+## Live Demo
 
 [View Live Demo here](https://weather-app-pi-one-76.vercel.app/)
 
