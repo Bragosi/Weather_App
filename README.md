@@ -42,7 +42,7 @@ OpenWeatherMap API: Provides current weather and forecast data.
 
 ##Live Demo
 
-[View Live Demo here(https://weather-app-pi-one-76.vercel.app/)]
+[View Live Demo here](https://weather-app-pi-one-76.vercel.app/)
 
 -----
 
