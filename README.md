@@ -33,37 +33,16 @@ OpenWeatherMap API: Provides current weather and forecast data.
 ----
 
 
+##Screenshots
+
+![Screenshot_14-6-2025_15712_localhost](https://github.com/user-attachments/assets/48c286f0-855a-41ff-832c-1ddd8bea7f65)
 
 
+----
 
-Usage
+Live Demo
+[View Live Demo here(https://weather-app-pi-one-76.vercel.app/)]
 
-View Default City Weather:
-On load, the app displays the current weather and 5-day forecast for Akure, Nigeria.
-
-
-Search for a City:
-Use the search bar to type a city name (e.g., "Lagos").
-Select a city from the autocomplete suggestions to view its weather data.
-
-
-Explore Weather Details:
-The Current Weather section shows temperature, weather description, feels-like temperature, wind speed, humidity, and pressure.
-The Forecast section displays a 5-day forecast with daily temperature and weather icons.
-
-
-
-
-
-Screenshots
-
-
-
-
-
-OpenWeatherMap for weather data.
-GeoDB Cities for city search functionality.
-Tailwind CSS for styling.
-
+-----
 
 Built with ☀️ and 🌧️ by Boluwatife.
