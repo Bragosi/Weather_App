@@ -4,15 +4,15 @@ This is a modern web application built with React that provides real-time weathe
 ----
 ## Features
 
-Real-Time Weather Data: Displays current temperature, weather description, feels-like temperature, wind speed, humidity, and pressure.
-5-Day Forecast: Shows daily weather forecasts with temperature and weather icons for the selected city.
-City Search: Autocomplete search powered by GeoDB Cities API to find cities quickly and accurately.
-Default City: Automatically loads weather data for Akure, NG, on app startup.
-Responsive Design: Built with Tailwind CSS for a seamless experience across devices.
-Dynamic Weather Icons: Fetches weather icons from OpenWeatherMap to visually represent conditions.
+1. Real-Time Weather Data: Displays current temperature, weather description, feels-like temperature, wind speed, humidity, and pressure.
+2. 5-Day Forecast: Shows daily weather forecasts with temperature and weather icons for the selected city.
+3. City Search: Autocomplete search powered by GeoDB Cities API to find cities quickly and accurately.
+4. Default City: Automatically loads weather data for Akure, NG, on app startup.
+5. Responsive Design: Built with Tailwind CSS for a seamless experience across devices.
+6. Dynamic Weather Icons: Fetches weather icons from OpenWeatherMap to visually represent conditions.
+------
 
-Technologies Used
-
+## Technologies Used
 React: Frontend JavaScript library for building the user interface.
 OpenWeatherMap API: Provides current weather and forecast data.
 GeoDB Cities API: Enables city search with autocomplete functionality.
