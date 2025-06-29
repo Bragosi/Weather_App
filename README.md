@@ -46,4 +46,5 @@ OpenWeatherMap API: Provides current weather and forecast data.
 
 -----
 
-Built with ☀️ and 🌧️ by Boluwatife.
+
+Built with ☀️ and 🌧️ by Bragosi.
